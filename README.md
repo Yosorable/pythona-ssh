@@ -3,6 +3,12 @@
 A local SSH terminal for [Pythona](https://pythona.app). Run `main.py` to open a
 React interface in WKWebView, with Paramiko handling SSH on Python worker threads.
 
+## Screenshots
+
+| Hosts | Connection | Terminal |
+| :---: | :---: | :---: |
+| <a href="docs/screenshots/hosts.png"><img src="docs/screenshots/hosts.png" width="260" alt="Saved SSH hosts" /></a> | <a href="docs/screenshots/connect.png"><img src="docs/screenshots/connect.png" width="260" alt="SSH connection form" /></a> | <a href="docs/screenshots/terminal.png"><img src="docs/screenshots/terminal.png" width="260" alt="Active SSH terminal" /></a> |
+
 ## Run in Pythona
 
 1. Copy or clone the complete project into Pythona, including `frontend/dist/`.
