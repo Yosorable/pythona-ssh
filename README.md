@@ -1,6 +1,6 @@
 # Pythona SSH
 
-A local SSH terminal for [Pythona](https://pythona.app). Run `main.py` to open a
+An SSH client for [Pythona](https://pythona.app). Run `main.py` to open a
 React interface in WKWebView, with Paramiko handling SSH on Python worker threads.
 
 ## Screenshots
