@@ -1,0 +1,8 @@
+.DS_Store
+.local/
+.venv/
+__pycache__/
+*.py[cod]
+frontend/node_modules/
+frontend/test-results/
+frontend/playwright-report/
