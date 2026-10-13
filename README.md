@@ -40,7 +40,8 @@ Installing pure Python packages cannot supply missing iOS native libraries.
 - Esc, Tab, Ctrl and arrow keys; selection copy, paste and font-size controls.
 - A host-list home page and a separate terminal page, both using a fixed dark appearance.
 - Saved credentials with Fernet encryption, plus change/forget actions on each host.
-- English, Simplified Chinese and Traditional Chinese, following Pythona's language.
+- English, Simplified Chinese, Traditional Chinese, Japanese, Korean, German,
+  French, Spanish, Russian and Brazilian Portuguese, following Pythona's language.
 - Explicit disconnect and reconnect. Closing the window closes its SSH session.
 
 The Ctrl button applies to the next character. Reconnecting opens a new remote
@@ -92,7 +93,10 @@ npm run dev
 The browser adapter provides temporary sample hosts and a simulated shell. Try
 `help`, `pwd`, `ls`, `echo hello`, Ctrl-C and `exit`. It never opens a real SSH
 connection or exposes a Python command API. Its simulated profiles and credentials
-stay in memory and reset on reload. Use `?lang=zh-Hans` or `?lang=zh-Hant` in Vite for localization work.
+stay in memory and reset on reload. Use `?lang=<code>` in Vite for localization work.
+Supported codes are `en`, `zh-Hans`, `zh-Hant`, `ja`, `ko`, `de`, `fr`, `es`, `ru`
+and `pt-BR`. Regional variants such as `de-DE`, `fr-CA` and `es-MX` use the matching
+language; unsupported languages fall back to English.
 
 Build after editing the frontend, and include the updated artifact with the source:
 

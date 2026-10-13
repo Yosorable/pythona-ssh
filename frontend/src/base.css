@@ -68,8 +68,9 @@ input::-webkit-inner-spin-button { -webkit-appearance: none; margin: 0; }
 .segmented { display: flex; gap: 4px; padding: 4px; background: var(--hover); border-radius: 12px; }
 .segmented button { flex: 1; min-height: 39px; padding: 9px; display: flex; align-items: center; justify-content: center; gap: 8px; background: transparent; color: var(--muted); font-size: 13px; font-weight: 500; border-radius: 9px; border: 1px solid transparent; }
 .segmented button.selected { color: var(--accent); background: var(--surface); border-color: var(--line); box-shadow: 0 2px 5px #22335407; }
-.modal-footer { display: flex; align-items: center; justify-content: flex-end; gap: 10px; margin-top: 24px; padding-top: 20px; border-top: 1px solid var(--line); }
-.modal-footer .button { min-width: 92px; }
+.modal-footer { display: flex; align-items: stretch; justify-content: flex-end; gap: 10px; margin-top: 24px; padding-top: 20px; border-top: 1px solid var(--line); }
+.modal-footer .button { min-width: 92px; white-space: normal; }
+.modal-footer .button svg { flex-shrink: 0; }
 .modal-footer .primary, .modal-footer .danger { min-width: 138px; }
 .form-note { display: flex; align-items: flex-start; gap: 7px; color: var(--muted); font-size: 12px; line-height: 1.65; margin: 14px 0 0; }
 .form-note svg { flex-shrink: 0; color: var(--muted); margin-top: 2px; }

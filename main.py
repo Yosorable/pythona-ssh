@@ -7,7 +7,7 @@ def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--preview", action="store_true", help="preview with simulated SSH sessions")
     parser.add_argument("--port", type=int, default=8878, help="loopback preview port")
-    parser.add_argument("--language", default="en", help="preview language: en, zh-Hans, zh-Hant")
+    parser.add_argument("--language", default="en", help="preview language: en, zh-Hans, zh-Hant, ja, ko, de, fr, es, ru, pt-BR")
     args = parser.parse_args()
     if args.preview:
         from ssh_app.preview import serve
